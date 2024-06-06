@@ -97,7 +97,7 @@ function PaymentScreen() {
                 <ListItemAvatar>
                   <Avatar
                     variant="square"
-                    src={`http://localhost:5000${product.image}`}
+                    src={product.image}
                     alt={product.name}
                     sx={{ width: 100, height: 100, marginRight: 2 }}
                   />

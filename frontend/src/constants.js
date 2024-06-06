@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:5000";
+export const BASE_URL = "";
 
 export const SHOES_URL = "/api/shoes";
 export const CUSTOMERS_URL = "/api/customer";

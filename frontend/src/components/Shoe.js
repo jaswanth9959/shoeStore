@@ -16,7 +16,7 @@ export default function RecipeReviewCard({ shoe }) {
         <CardMedia
           component="img"
           height="194"
-          image={`http://localhost:5000${shoe.image}`}
+          image={shoe.image}
           alt={shoe.name}
         />
       </Link>

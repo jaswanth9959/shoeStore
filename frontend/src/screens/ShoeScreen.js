@@ -125,7 +125,7 @@ function ShoeScreen() {
               <CardMedia
                 component="img"
                 height="450"
-                image={`http://localhost:5000${shoe.image}`}
+                image={shoe.image}
                 alt={shoe.name}
               />
             </Card>
