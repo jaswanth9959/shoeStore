@@ -87,7 +87,7 @@ function HomeScreen() {
         <>
           <Grid container spacing={2}>
             {filterItems.map((shoe) => (
-              <Grid item xs={4} key={shoe._id}>
+              <Grid item xs={12} sm={4} key={shoe._id}>
                 <Shoe shoe={shoe} />
               </Grid>
             ))}
